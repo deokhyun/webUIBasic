@@ -1,0 +1,68 @@
+*{margin: 0px; padding: 0px;font-family: "Roboto",Arial,sans-serif;}
+ul,ol{list-style: none;}
+a{text-transform: none;}
+
+
+
+.box1{height: 60px;background-color: #f0f0f0;padding-bottom: 10px;overflow: hidden;}
+.topleft {float: left;width: 200px;min-width:183px;margin-top: 20px;margin-right: 1%;}
+    #logo { background-image: url('http://www.gstatic.com/android/market_images/web/play_logo_x2.png');
+        width:183px;height:39px;background-size: 183px 39px;margin-left: 10px;}
+.topmiddle {float: left;width: 30%;height: 50px;margin-top: 20px;margin-right: 1%;}
+    #search{float: left;background: transparent;border: none;height: 20px;margin-top: 10px;vertical-align: top;}
+    #search input{width:300px;height: : 20px;}
+    #magnifier span{float: left;background: url(http:////ssl.gstatic.com/gb/images/v1_2e543709.png) no-repeat 0px -249px;
+            display: block;overflow: hidden;width: 30px;height: 30px;margin-top: 4px;}
+.topright {float: right;width: 37%;px;height: 36px;margin-top: 20px;margin-right:50px;overflow: hidden}
+.topright div{float: left;padding: 12px 0 0 20px; }
+    .topright div:first-child{padding-left: 37%;}
+    #username{}
+    #appbutton span{background: url(http://ssl.gstatic.com/gb/images/v1_2e543709.png) no-repeat -50px -457px;
+            display: block;overflow: hidden;width: 30px;height: 20px;}
+    #alarm span{background: url(http://ssl.gstatic.com/gb/images/v1_2e543709.png) no-repeat 0px -77px;
+            display: block;overflow: hidden;width: 30px;height: 20px;}
+    #link span{border-bottom-color: #f5f5f5;border: 5px solid transparent;min-height: 20px;
+        min-width: 20px;height: 30px;width: 60px;}
+    #account span{background: url(http://lh6.googleusercontent.com/-2Sjke2vZNzA/AAAAAAAAAAI/AAAAAAAAAAA/fuob6S64n-0/s32-c/photo.jpg) ;
+            display: block;overflow: hidden;width: 32px;height: 32px;border-radius: 50%;margin: -7px}
+
+.books {position: absolute;width: 200px;height:200px;background-color: #fafafa;}
+.books li{width : 120px;float: left;line-height: 40px;height: 35px;padding: 10px 40px;font-weight: 300;font-size: 18px;}
+.books li:hover { background: #ddd; } 
+
+.books li:first-child{background-color:#1aa1e1;border: 1px;color: #fff;padding-top: 5px;}
+.books li span{float: left;background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA40lEQVQoz+2RTRGDMBhEIyESKgEJSEACEioBB5GABCQgIRKQgITXQzc0QNIwbbl02Jlw+H72JYsBjDHGAB0w64zAADSmIKDW7Bjtd+o9P8AEtMBNg7GmsLAxbtSLNcjjLtACCPK6UaOBWCNgZd5verN2ankE7QBBTjcZEpAuc2uX8MkCQjS1nusTfa9Y60RUhwDxa2zmB7vC7iEAMivWLsAFuAD/DnAnANwC0HADzD8AzECr/gugQgX4LwAeqCK/NUBFC/QfAHrAbrz2gKjZhsgKgCWShEceEEf2BrCKJAs48zwAsmsx4ZbVwpEAAAAASUVORK5CYII=);display: block;height: 24px;width: 24px;margin: 10px 10px 0 0;}
+.bookspart{position: relative;float: left;width: 600px;height:50px;background-color:white;margin-left: 200px;padding-left: 30px;}
+.bookspart li{float: left;padding: 15px 10px;}
+.bookspart li:hover { background: #ddd; } 
+
+
+
+.container{width: 100%;background-color: #e5e5e5;margin-top: 50px;}
+.container .more{height: 32px;width: 100px;background-color: #1aa1e1;margin-top: -60;right: 50px;position: absolute;
+    line-height: 30px;text-align: center;}
+.container .more span{border: 1px;color: #fff;}
+.container .more:hover { background: #ddd; } 
+.container p {padding-top: 10px;}
+.container ul li {float: left;width: 150px;margin-right: 10px;margin-bottom: 40px;padding-bottom: 5px;background-color: #fafafa;}
+.container ul li:hover { background: #ddd; } 
+.container ul li p{margin-top: -5px}
+.container ul li p first-child{overflow: hidden;}
+.container ul li img {width: 100%;display: block;margin: 10px auto;float: left;background-color: #e5e5e5;}
+
+.cabinet{clear:both;width: 70%; height: 380px;overflow: hidden;margin-top: 40px;margin-left: 240px;padding: 10px 0 30px 0;}
+.cabinet ul li p:nth-child(2){color: #333;display: block;font-size: 16px;line-height: 18px;max-height: 36px;min-height: 18px;
+    overflow: hidden;text-decoration: none;white-space: nowrap;}
+.cabinet ul li p:nth-child(3){color: #aaa;display: inline-block;font-size: 13px;line-height: 16px;margin: 1px 0;max-width: 132px;
+    overflow: hidden;white-space: nowrap;}
+.cabinet ul li p:nth-child(4){font-size: 13px;font-weight: 400;line-height: 17px;padding-left: 2px;color: #1aa1e1;
+    text-align: right;margin-top: }
+
+
+.cabinet>p{margin-bottom: 20px;}
+
+
+.containerbox1{padding-top: 20px;}
+.containerbox2{background-image: url(https://lh4.ggpht.com/ghqLgt9b9Tx2BP_SXwfystdwm-UCQeRv5esOvs1e_6ABNYg6TB2BmGHmB4edgYUBxmD3=h556-rw);}
+
+#footer{margin-left: 235px;padding: 28px 5px;color: #555;font-weight: 400;font-size: 13px;}
